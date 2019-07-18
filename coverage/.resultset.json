@@ -1,0 +1,103 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/student/Documents/projects/tax-authorities-guidance/spec/feature/add_link_to_guidance_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/student/Documents/projects/tax-authorities-guidance/spec/feature/view_list_of_guidance_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/student/Documents/projects/tax-authorities-guidance/spec/feature/visit_homepage_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/student/Documents/projects/tax-authorities-guidance/spec/feature/visit_list_of_guidance_page_spec.rb": [
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/student/Documents/projects/tax-authorities-guidance/spec/unit/guidance_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/student/Documents/projects/tax-authorities-guidance/app/models/guidance.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        4,
+        4,
+        4,
+        4,
+        null,
+        null,
+        1,
+        3,
+        3,
+        null,
+        0,
+        null,
+        null,
+        3,
+        3,
+        2,
+        null,
+        null,
+        null,
+        1,
+        2,
+        2,
+        null,
+        0,
+        null,
+        null,
+        2,
+        2,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1563452194
+  }
+}

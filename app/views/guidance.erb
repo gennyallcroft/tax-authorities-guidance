@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/custom.css">
+
+
+  <!-- Basic Page Needs
+   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <meta charset="utf-8">
+   <title>Tax Authority VAT Guidance</title>
+   <meta name="description" content="">
+   <meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- FONT
+   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+   <!-- CSS
+   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+   <!-- Scripts
+   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+   <!-- Favicon
+   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
+
+ </head>
+ <body>
+
+   <!-- Primary Page Layout
+   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+   <div class="section hero">
+     <div class="container">
+       <div class="row">
+           <h4 class="hero-heading">Tax Authority VAT Guidance</h4>
+       </div>
+       <div class="row">
+         <p>Click on a link below to view the VAT guidance available in that country</p>
+       </div>
+       <div class="row">
+       <ul>
+         <% @guidance.each do |guidance| %>
+         <li><a href="<%= guidance.url %>">
+           <%= guidance.country %>
+        </li>
+         <% end %>
+       </ul>
+       </div>
+     </div>
+   </div>
+
+
+
+
+
+
+
+
+ <!-- End Document
+   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ </body>
+ </html>
